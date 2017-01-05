@@ -15,3 +15,14 @@ void temperatura()
 	case 3: { m=cantitate-273.15; } break;//Kelvin
 	case 4: { m=((cantitate-491.67)*5)/9; } break;//Rankine
 	}
+	cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) Fahrenheit\t2) Celsius\t3) Kelvin\t4) Rankine\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+	cin>>unitate2;
+	switch(unitate2)
+	{
+	case 1: { n=(((m*9)/5)+32); } break;//Fahrenheit
+	case 2: { n=m; } break;//Celsius
+	case 3: { n=m+273.15; } break;//Kelvin
+	case 4: { n=((m+273.15)*9)/5; } break;//Rankine
+	}
+	cout<<"Convertire: "<<unitate1<<"("<<cantitate<<")"<<" ---> "<<unitate2<<" = "<<fixed<<n<<endl;
+	}
