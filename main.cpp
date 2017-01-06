@@ -25,4 +25,20 @@ void temperatura()
 	case 4: { n=((m+273.15)*9)/5; } break;//Rankine
 	}
 	cout<<"Convertire: "<<unitate1<<"("<<cantitate<<")"<<" ---> "<<unitate2<<" = "<<fixed<<n<<endl;
-	}
+}
+void convertor()
+{
+	double long cantitate, v[35], cantafisare;
+	int optiune, unitate1, unitate2;
+	cin>>optiune;
+	if(optiune!=6)
+	{
+		switch(optiune)
+		{
+		case 1:
+			cout << "|||||||||||||||||||| Lungime ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti? \n\n1) cm\t2) ft\t3) in\n4) km\t5) m\t6) mi\n7) mm\t8) nmi\t9) yd\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=lungime[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout << "In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) cm\t2) ft\t3) in\n4) km\t5) m\t6) mi\n7) mm\t8) nmi\t9) yd\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=lungime[unitate2]; break;
