@@ -64,3 +64,10 @@ void convertor()
 			cin>>cantitate;
 			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) cl\t\t2) cm^3\t\t3) dl\n4) dm^3\t\t5) ft^3\t\t6) galon(UK)\n7) galon(US)\t8) in^3\t\t9) l\n10) m^3\t\t11) ml^3\t12) yd^3\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
 			cin>>unitate2; v[unitate2]=volum[unitate2]; break;
+        case 4:
+			cout<<"|||||||||||||||||||| Timp ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti? \n\n1) saptamana\t2) zi\t\t3) ora\t\t4) minute\n5) decisecunda\t6) centisecunda\t7) milisecunda\t8) microsecunda\n9) nanosecunda\t10) picosecunda\t11) femtosecunda 12) attosecunda\n13) bimester\t14) trimestru\t15) patru luni\t16) semestru\n17) biennium\t18) triennium\t19) quadrennium\t20) lustru\n21) sexennium\t22) septennium\t23) deceniu\t24) decalustro\n25) seculol\t26) mileniu\t27) megaannum\t28) 15 zile\n29) cron\t30) luna\t31) an\t\t32) secunda\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=timp[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) saptamana\t2) zi\t\t3) ora\t\t4) minute\n5) decisecunda\t6) centisecunda\t7) milisecunda\t8) microsecunda\n9) nanosecunda\t10) picosecunda\t11) femtosecunda 12) attosecunda\n13) bimester\t14) trimestru\t15) patru luni\t16) semestru\n17) biennium\t18) triennium\t19) quadrennium\t20) lustru\n21) sexennium\t22) septennium\t23) deceniu\t24) decalustro\n25) seculol\t26) mileniu\t27) megaannum\t28) 15 zile\n29) cron\t30) luna\t31) an\t\t32) secunda\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=timp[unitate2]; break;
