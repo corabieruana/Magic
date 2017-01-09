@@ -78,3 +78,10 @@ void convertor()
 			cin>>cantitate;
 			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) cm/min\t2) cm/s\t\t3) ft/h\t\t4) ft/min\t5) ft/s\n6) fph\t\t7) fps\t\t8) in/s\t\t9) ips\t\t10) km/h\n11) km/min\t12) km/s\t13) m/h\t\t14) m/min\t15) mi/s\n16) mi/min\t17) mph\t\t18) mps\t\t19) nmi/h\t20) yd/h\n21) yd/min\t22) yd/s\t23) m/s\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
 			cin>>unitate2; v[unitate2]=viteza[unitate2]; break;
+        case 7:
+            cout<<"|||||||||||||||||||| Masa ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti? \n\n1) grame\t2) kilograme\t3) lb(pound)\t4) miligrame\n5) oz(AV)\t6) oz(TROY)\t7) slug\t\t8) tone\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=masa[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) grame\t2) kilograme\t3) lb(pound)\t4) miligrame\n5) oz(AV)\t6) oz(TROY)\t7) slug\t\t8) tone\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=masa[unitate2]; break;
