@@ -71,3 +71,10 @@ void convertor()
 			cin>>cantitate;
 			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) saptamana\t2) zi\t\t3) ora\t\t4) minute\n5) decisecunda\t6) centisecunda\t7) milisecunda\t8) microsecunda\n9) nanosecunda\t10) picosecunda\t11) femtosecunda 12) attosecunda\n13) bimester\t14) trimestru\t15) patru luni\t16) semestru\n17) biennium\t18) triennium\t19) quadrennium\t20) lustru\n21) sexennium\t22) septennium\t23) deceniu\t24) decalustro\n25) seculol\t26) mileniu\t27) megaannum\t28) 15 zile\n29) cron\t30) luna\t31) an\t\t32) secunda\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
 			cin>>unitate2; v[unitate2]=timp[unitate2]; break;
+        case 5:
+			cout<<"|||||||||||||||||||| Viteza ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti? \n\n1) cm/min\t2) cm/s\t\t3) ft/h\t\t4) ft/min\t5) ft/s\n6) fph\t\t7) fps\t\t8) in/s\t\t9) ips\t\t10) km/h\n11) km/min\t12) km/s\t13) m/h\t\t14) m/min\t15) mi/s\n16) mi/min\t17) mph\t\t18) mps\t\t19) nmi/h\t20) yd/h\n21) yd/min\t22) yd/s\t23) m/s\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=viteza[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) cm/min\t2) cm/s\t\t3) ft/h\t\t4) ft/min\t5) ft/s\n6) fph\t\t7) fps\t\t8) in/s\t\t9) ips\t\t10) km/h\n11) km/min\t12) km/s\t13) m/h\t\t14) m/min\t15) mi/s\n16) mi/min\t17) mph\t\t18) mps\t\t19) nmi/h\t20) yd/h\n21) yd/min\t22) yd/s\t23) m/s\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=viteza[unitate2]; break;
