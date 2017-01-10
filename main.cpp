@@ -85,3 +85,10 @@ void convertor()
 			cin>>cantitate;
 			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) grame\t2) kilograme\t3) lb(pound)\t4) miligrame\n5) oz(AV)\t6) oz(TROY)\t7) slug\t\t8) tone\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
 			cin>>unitate2; v[unitate2]=masa[unitate2]; break;
+		case 8:
+			cout<<"|||||||||||||||||||| Energie ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti? \n\n1) Btu\t\t2) cal\t\t3) erg\t\t4) ft-lbf\t5) in-lbf\n6) J\t\t7) kcal\t\t8) kj\t\t9) kW-h\t\t10) quad Btu\n11) tcc\t\t12) tce\t\t13) tec\t\t14) tep\t\t15) toe\t\t16) th\t\t17) W-h\t\t18) W-s\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=energie[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) Btu\t\t2) cal\t\t3) erg\t\t4) ft-lbf\t5) in-lbf\n6) J\t\t7) kcal\t\t8) kj\t\t9) kW-h\t\t10) quad Btu\n11) tcc\t\t12) tce\t\t13) tec\t\t14) tep\t\t15) toe\t\t16) th\t\t17) W-h\t\t18) W-s\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=energie[unitate2]; break;
