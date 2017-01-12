@@ -115,3 +115,15 @@ void convertor()
 	else
 	temperatura();
 }
+
+int main()
+{
+	double long cantitate;
+	int optiune, unitate1, unitate2;
+	char raspuns;
+	do
+	{
+	cout<<"Alege o categorie tastand tasta corespunzatoare:\n\n1) Lungime\t2) Arie\t\t3) Volum\t4) Timp\t\t5) Viteza\n6) Temperatura\t7) Masa\t\t8) Energie\t9) Presiune\t10) Densitate\n\n";
+	convertor(); cout<<"Doresti sa faci alta convertire? ( y/n )\t"; cin>>raspuns; cout<<'\n';
+	}while(raspuns=='y');
+}
