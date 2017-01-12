@@ -99,3 +99,19 @@ void convertor()
 			cin>>cantitate;
 			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) at\t\t2) atm\t\t3) bar\t\t4) inH2O\t5) inHg\n6) kp/cm^2\t7) kPa\t\t8) lbf/ft^2\t9) lbf/in^2\t10) mbar\n11) mca\t\t12) mH2O\t13) mmca\t14) mmH2O\t15) mmHg\n16) mmWC\t17) MPa\t\t18) mWC\t\t19) N/mm^2\t20) PSI\n21) torr\t22) mce\t\t23) mmce\t24) mmWS\t25) mWs\n26) PA\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
 			cin>>unitate2; v[unitate2]=presiune[unitate2]; break;
+        case 10:
+			cout<<"|||||||||||||||||||| Densitate ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti? \n\n1) g/cm^3\t2) g/l\t\t3) g/m^3\t4) g/ml\t\t5) g/mm^3\n6) kg/cm^3\t7) kg/l\t\t8) kg/m^3\t9) lb/ft^3\t10) lb/in^3\n11) lb/gal(UK)\t12) lb/gal(US)\t13) mg/cm^3\t14) mg/l\t15) mg/m^3\n16) oz(Av)/gal (UK)\t\t17) oz(Av)/gal (US)\t\t18) oz(Av)/ft^3\t19) oz(Av)/in^3\t\t\t20) t/m^3\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=densitate[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) g/cm^3\t2) g/l\t\t3) g/m^3\t4) g/ml\t\t5) g/mm^3\n6) kg/cm^3\t7) kg/l\t\t8) kg/m^3\t9) lb/ft^3\t10) lb/in^3\n11) lb/gal(UK)\t12) lb/gal(US)\t13) mg/cm^3\t14) mg/l\t15) mg/m^3\n16) oz(Av)/gal (UK)\t\t17) oz(Av)/gal (US)\t\t18) oz(Av)/ft^3\t19) oz(Av)/in^3\t\t\t20) t/m^3\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=densitate[unitate2]; break;
+		}
+    cantafisare=cantitate;
+	cantitate = cantitate*v[unitate1];
+	cantitate = cantitate/v[unitate2];
+	cout<<"Convertire: "<<unitate1<<"("<<cantafisare<<")"<<" ---> "<<unitate2<<" = "<<fixed<<cantitate<<endl;
+	}
+	else
+	temperatura();
+}
