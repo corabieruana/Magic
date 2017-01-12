@@ -92,3 +92,10 @@ void convertor()
 			cin>>cantitate;
 			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) Btu\t\t2) cal\t\t3) erg\t\t4) ft-lbf\t5) in-lbf\n6) J\t\t7) kcal\t\t8) kj\t\t9) kW-h\t\t10) quad Btu\n11) tcc\t\t12) tce\t\t13) tec\t\t14) tep\t\t15) toe\t\t16) th\t\t17) W-h\t\t18) W-s\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
 			cin>>unitate2; v[unitate2]=energie[unitate2]; break;
+        case 9:
+			cout<<"|||||||||||||||||||| Presiune ||||||||||||||||||||\n\nCe unitate de masura vrei sa convertesti?\n\n1) at\t\t2) atm\t\t3) bar\t\t4) inH2O\t5) inHg\n6) kp/cm^2\t7) kPa\t\t8) lbf/ft^2\t9) lbf/in^2\t10) mbar\n11) mca\t\t12) mH2O\t13) mmca\t14) mmH2O\t15) mmHg\n16) mmWC\t17) MPa\t\t18) mWC\t\t19) N/mm^2\t20) PSI\n21) torr\t22) mce\t\t23) mmce\t24) mmWS\t25) mWs\n26) PA\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate1; v[unitate1]=presiune[unitate1];
+			cout << "Ce cantitate vrei sa convertesti? ";
+			cin>>cantitate;
+			cout<<"In ce unitate de masura vrei sa convertesti cantitatea aleasa?\n\n1) at\t\t2) atm\t\t3) bar\t\t4) inH2O\t5) inHg\n6) kp/cm^2\t7) kPa\t\t8) lbf/ft^2\t9) lbf/in^2\t10) mbar\n11) mca\t\t12) mH2O\t13) mmca\t14) mmH2O\t15) mmHg\n16) mmWC\t17) MPa\t\t18) mWC\t\t19) N/mm^2\t20) PSI\n21) torr\t22) mce\t\t23) mmce\t24) mmWS\t25) mWs\n26) PA\n\nAlege unitate de masura apasand tasta corespunzatoare: ";
+			cin>>unitate2; v[unitate2]=presiune[unitate2]; break;
